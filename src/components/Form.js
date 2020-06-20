@@ -13,7 +13,7 @@ class Form extends React.Component {
                         <input 
                             type="text"
                             onChange={event => this.props.handleLastNameChange(event)}
-                            value={this.props.forData.lastName} 
+                            value={this.props.formData.lastName} 
                         />
                 </form>
             </div>
